@@ -13,8 +13,44 @@
   }
 }
 
+.login-container {
+  border: solid green;
+  background-color: palevioletred;
+  color: wheat;
+}
+
+/* I decided to keep the styling of the app simple as I didn't think doing too much was necessary. I made the border of the LoginForm
+green. The background color "palevioletred". And the color of the text "wheat". */
+
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: pink;
+}
+
+
+/* I also kept the styling of the Navbar simple. I adjusted the spacing, alignment, and the background color. */
+
+.nav-left { 
+  color: blueviolet;
+}
+
+.nav-center {
+  color: blueviolet;
+}
+.nav-right {
+  color: blueviolet;
+}
+
+
+/* Lines 38, 42, and 45 align the links in the Navbar. */
+
 .App-header {
-  background-color: #282c34;
+  background-color: wheat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +59,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+/* On line 53, I made the background-color "wheat". */
 
 .App-link {
   color: #61dafb;
